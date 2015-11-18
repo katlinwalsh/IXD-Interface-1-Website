@@ -9,10 +9,6 @@ h1
     padding: 40px 0 0 10px;
 }
         
-h2
-{
-    text-align: center;
-}
         
 h1, h2, h3, h6        
 {       
@@ -31,107 +27,6 @@ body
     font-size: 16px; 
     line-height: 1.6em;
 }
-
-div.menu-bar
-{
-    font-family: "monaco" "arial" sans-serif;
-    position: relative;
-    height: 30px;
-    width:960px;
-    padding: 0;
-}
-
-div.menu-bar ul 
-{
-    position: absolute;
-    list-style-type: none;
-    background-color: #fff;
-    overflow: visible;
-    width:390px;
-    margin: 0px 300px;
-    padding: 0px;
-    text-align: center;
-}
-
-div.menu-bar ul li
-{
-    display: block;
-    float: left;
-    height: auto;
-    width: 130px;
-    margin: 0px;
-}
-
-div.menu-bar li > span, div.menu-bar li > a, div.menu-bar li > a:link,
-div.menu-bar li > a:visited, div.menu-bar li > a:active 
-{
-    margin: 0px;
-    display: block;
-    padding: 0 0 0 10px;
-    line-height: 25px;
-    font-size: 12px;
-    text-decoration: none;
-    background-color: transparent;
-    color: #000;
-    cursor: pointer;
-}
-
-div.menu-bar li:hover > span, div.menu-bar li:hover > a 
-{
-    text-decoration: underline;   
-}
-
-div.menu-bar ul ul
-{
-    margin: 0px;
-    margin-top: 2px;
-    display: none;
-    position: static;
-    height: auto;
-    width: 120px;
-    background-color: transparent;
-    text-align: center;
-}
-
-div.menu-bar li:hover > ul
-{
-    display: block;
-}
-
-div.menu-bar ul ul li 
-{
-    margin: 0px;
-    position: relative;
-    float: none;
-    display: block;
-    height: 28px;
-}
-
-div.menu-bar ul ul li > span, div.menu-bar ul ul li > a,
-div.menu-bar ul ul li > a:link, div.menu-bar ul ul li > a:visited,
-div.menu-bar ul ul li > a:active 
-{
-    margin: 0px;
-    padding: 0 0 0 4%;
-    line-height: 28px;
-    background-color: #fff;
-    color: #000;
-    font-size: 12px;
-}
-
-div.menu-bar ul ul li:hover > span, div.menu-bar ul ul li:hover > a 
-{
-    text-decoration: underline;
-}
-
-div.menu-bar ul ul ul 
-{
-    position:absolute;
-    top: 4px;
-    left: 155px;   
-}
-
-
 
 div.button 
 {
@@ -166,7 +61,6 @@ div.button li > a:visited, div.button li > a:active
     font-family: "monaco" "arial" sans-serif;
     font-size: 17px;
     text-decoration: none;
-    background-color: transparent;
     color: #000;
     cursor: pointer;
 }
@@ -174,14 +68,6 @@ div.button li > a:visited, div.button li > a:active
 div.button li:hover > span, div.button li:hover > a 
 {
     text-decoration: underline;
-}
-
-
-header 
-{   
-    color: #000;
-    background-color: transparent;
-    margin: 0px;
 }
 
 #content
@@ -197,48 +83,42 @@ header
 
 #info
 {
-    height: 200px;
-    padding: 0 0 10px 0;
-    margin: 10px 0 10px 0px;
-    float:right;  
+    width: 800px;
+    margin: 0px 80px 20px 80px;
+    float:left;  
 }
 
-#aboutfirst, #aboutcompetitions, #find
-{    
-    width: 200px;
-    height: 200px;
-    padding: 10px;
-    margin: 20px 40px 60px 40px;
-    float:left; 
+#circles
+{
+}
+.circle
+{
     border-radius: 50%;
+    width:200px;
+    height: 200px;
+    margin: 20px 60px 40px 60px;
     background-size: cover;
+    display:block;
+    float:left;
 }
 
 #find
 {
-    background-image: url(images/find.jpg);
    
 }
 
 #aboutfirst
 {
-    background-image: url(images/aboutfirst.jpg);
+
    
 }
 
 #aboutcompetitions
 {
-    background-image: url(images/aboutcompetitions.jpg);
+   
 }
 
-footer
-{
-    border-top: 1px dashed #000;
-    padding: 10px 20px;
-    margin: 10px;
-    clear:both;
-    font-size: 11px;
-}
+
 
 #map
 {
@@ -359,47 +239,7 @@ footer
     background-color: aquamarine;
     float: left;
 }
-#header771
-{
-     font-family: "monaco" "arial" sans-serif; 
-    font-size: 30px;
-    line-height: 40px;
-    float: left;
-    margin: 10px 0px 10px 10px;
-    width: 850px;
-}
-#info771
-{
-    float: left;
-    width: 480px;
-}
 
-#map771
-{
-    float: right;
-    width: 480px;
-    height: 300px;
-    background-color: bisque;
-}
-
-#teampic771
-{
-    margin: 10px 10px 10px 0px;
-    width: 630px; 
-    height: 200px;
-    float:left;
-    background-image: url(images/swatteam.jpg);
-}
-
-#robotpic771
-{
-    margin: 10px 0px 10px 10px;
-    height: 200px;
-    width:310px;
-    float:left;
-background-image: url(images/771robot.jpg);
-background-size: cover;
-}
 
 #teamcontent
 {
