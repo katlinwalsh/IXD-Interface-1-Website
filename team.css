@@ -1,0 +1,72 @@
+div.button 
+{
+    height: 30px;
+    padding: 5px 10px;
+}
+
+div.button ul
+{
+    font-family: "monaco" "arial" sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: visible;
+}
+
+div.button ul li
+{
+    display: block;
+    float: left;
+    height: auto;
+    width: 200px;
+}
+
+div.button > span, div.button li > a, div.button li > a:link,
+div.button li > a:visited, div.button li > a:active
+ {
+    display: block;
+    padding: 0 0 0 10px;
+    line-height: 30px;
+    font-family: "monaco" "arial" sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+
+div.button li:hover > span, div.button li:hover > a 
+{
+    text-decoration: underline;
+}
+
+
+.circle
+{
+    border-radius: 50%;
+    width:100px;
+    height: 100px;
+    margin: 0;
+    background-size: cover;
+    display:block;
+    align-content: center;
+    float:left;
+}
+
+
+#map
+{      
+    float:left;
+    width: 800px;
+    height: 600px;
+    margin: 0px 80px 20px 80px;
+    background-image: url(images/map.jpg);
+}
+
+#team771, #team1334, #team1360, #team3161, #team4519, #team5409
+{       
+    align-content: center; 
+    width: 100px; 
+    padding:  10px 30px;
+    float:left;   
+    margin: 10px 0px;
+}

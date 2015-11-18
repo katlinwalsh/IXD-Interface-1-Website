@@ -1,3 +1,28 @@
+ #container        
+{       
+    width:960px;
+    margin:0 auto; 
+}
+
+h1
+{
+    padding: 40px 0 0 10px;
+}
+        
+        
+h1, h2, h3, h6        
+{       
+    font-family: "monaco" "arial" sans-serif; 
+}
+            
+h6        
+{
+    color: #fdeaea;
+    font-size: 10pt;  
+}
+
+
+
 header 
 {   
     color: #000;

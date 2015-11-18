@@ -1,25 +1,3 @@
- #container        
-{       
-    width:960px;
-    margin:0 auto; 
-}
-
-h1
-{
-    padding: 40px 0 0 10px;
-}
-        
-        
-h1, h2, h3, h6        
-{       
-    font-family: "monaco" "arial" sans-serif; 
-}
-            
-h6        
-{
-    color: #fdeaea;
-    font-size: 10pt;  
-}
 
 body
 {
@@ -28,47 +6,6 @@ body
     line-height: 1.6em;
 }
 
-div.button 
-{
-    height: 30px;
-    background-color: #59a5b6;
-    padding: 5px 10px;
-}
-
-div.button ul
-{
-    font-family: "monaco" "arial" sans-serif;
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    overflow: visible;
-}
-
-div.button ul li
-{
-    display: block;
-    float: left;
-    height: auto;
-    width: 200px;
-}
-
-div.button > span, div.button li > a, div.button li > a:link,
-div.button li > a:visited, div.button li > a:active
- {
-    display: block;
-    padding: 0 0 0 10px;
-    line-height: 30px;
-    font-family: "monaco" "arial" sans-serif;
-    font-size: 17px;
-    text-decoration: none;
-    color: #000;
-    cursor: pointer;
-}
-
-div.button li:hover > span, div.button li:hover > a 
-{
-    text-decoration: underline;
-}
 
 #content
 {      
@@ -91,6 +28,7 @@ div.button li:hover > span, div.button li:hover > a
 #circles
 {
 }
+
 .circle
 {
     border-radius: 50%;
@@ -120,60 +58,6 @@ div.button li:hover > span, div.button li:hover > a
 
 
 
-#map
-{
-    float: left;
-    margin: 10px 0px;
-    width: 690px;
-    height: 1310px;
-    background-image: url(images/map.jpg);
-    background-size:cover;
-}
-
-#team771, #team1334, #team1360, #team3161, #team4519, #team5409
-{       
-    margin: 10px 0px 0px 10px; 
-    width: 260px;
-    height: 200px;
-    padding: 0 0 10px 0;
-    float:right;   
-}
-
-#team771 
-{   
-    background-image: url(images/771robot.jpg);
-    background-size:cover;
-}
-
-#team1334 
-{   
-    background-image: url(images/1334shirt2.jpg);
-    background-size:cover;
-}
-
-#team1360 
-{   
-    background-image: url(images/1360.jpg);
-    background-size:cover;
-}
-
-#team3161 
-{   
-    background-image: url(images/3161robot.jpg);
-    background-size:cover;
-}
-
-#team4519 
-{   
-    background-image: url(images/firstcommunity.jpg);
-    background-size:cover;
-}
-
-#team5409 
-{   
-    background-image: url(images/firstcommunity.jpg);
-    background-size:cover;
-}
 
 #teaminfo
 {   
