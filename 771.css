@@ -1,0 +1,52 @@
+#team771
+{       
+    margin: 10px 0px 0px 10px; 
+    width: 260px;
+    height: 200px;
+    padding: 0 0 10px 0;
+    float:right;   
+    background-image: url(images/771robot.jpg);
+    background-size:cover;
+}   
+
+#header771
+{
+     font-family: "monaco" "arial" sans-serif; 
+    font-size: 30px;
+    line-height: 40px;
+    float: left;
+    margin: 10px 0px 10px 10px;
+    width: 850px;
+}
+#info771
+{
+    float: left;
+    width: 480px;
+}
+
+#map771
+{
+    float: right;
+    width: 480px;
+    height: 300px;
+    background-color: bisque;
+}
+
+#teampic771
+{
+    margin: 10px 10px 10px 0px;
+    width: 630px; 
+    height: 200px;
+    float:left;
+    background-image: url(images/swatteam.jpg);
+}
+
+#robotpic771
+{
+    margin: 10px 0px 10px 10px;
+    height: 200px;
+    width:310px;
+    float:left;
+background-image: url(images/771robot.jpg);
+background-size: cover;
+}
