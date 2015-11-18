@@ -1,0 +1,98 @@
+div.menu-bar
+{
+    font-family: "monaco" "arial" sans-serif;
+    position: relative;
+    margin-top: 30px;
+    height: 30px;
+    width:960px;
+    padding: 0;
+}
+
+div.menu-bar ul 
+{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    list-style-type: none;
+    background-color: #1f2d5f;
+    overflow: visible;
+    padding: 0;
+}
+
+div.menu-bar ul li
+{
+    display: block;
+    float: left;
+    height: auto;
+    width: 180px;
+}
+
+div.menu-bar li > span, div.menu-bar li > a, div.menu-bar li > a:link,
+div.menu-bar li > a:visited, div.menu-bar li > a:active 
+{
+    display: block;
+    padding: 0 0 0 10px;
+    height: 100%;
+    border-right: 1px #ffffff solid;
+    line-height: 30px;
+    font-size: 17px;
+    text-decoration: none;
+    background-color: #1f2d5f;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+div.menu-bar li:hover > span, div.menu-bar li:hover > a 
+{
+    color: #ffffff;
+    background-color: #59a5b6;
+}
+
+div.menu-bar ul ul
+{
+    margin-top: 2px;
+    display: none;
+    position: static;
+    height: auto;
+    width: 160px;
+    background-color: #1f2d5f;
+}
+
+div.menu-bar li:hover > ul
+{
+    display: block;
+}
+
+div.menu-bar ul ul li 
+{
+    position: relative;
+    float: none;
+    display: block;
+    height: 28px;
+}
+
+div.menu-bar ul ul li > span, div.menu-bar ul ul li > a,
+div.menu-bar ul ul li > a:link, div.menu-bar ul ul li > a:visited,
+div.menu-bar ul ul li > a:active 
+{
+    height: 100%;
+    padding: 0 0 0 4%;
+    line-height: 28px;
+    background-color: #1f2d5f;
+    color: #fff;
+    font-size: 14px;
+}
+
+div.menu-bar ul ul li:hover > span, div.menu-bar ul ul li:hover > a 
+{
+    background-color: #59a5b6;
+    color: #fff;
+}
+
+div.menu-bar ul ul ul 
+{
+    position: absolute;
+    top: 4px;
+    left: 155px;   
+}
+

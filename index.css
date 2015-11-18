@@ -1,0 +1,420 @@
+ #container        
+{       
+    width:960px;
+    margin:0 auto; 
+}
+
+h1
+{
+    padding: 40px 0 0 10px;
+}
+        
+h2
+{
+    text-align: center;
+}
+        
+h1, h2, h3, h6        
+{       
+    font-family: "monaco" "arial" sans-serif; 
+}
+            
+h6        
+{
+    color: #fdeaea;
+    font-size: 10pt;  
+}
+
+body
+{
+    font-family: "Georgia", "Times", sans-serif;
+    font-size: 16px; 
+    line-height: 1.6em;
+}
+
+div.menu-bar
+{
+    font-family: "monaco" "arial" sans-serif;
+    position: relative;
+    height: 30px;
+    width:960px;
+    padding: 0;
+}
+
+div.menu-bar ul 
+{
+    position: absolute;
+    list-style-type: none;
+    background-color: #fff;
+    overflow: visible;
+    width:390px;
+    margin: 0px 300px;
+    padding: 0px;
+    text-align: center;
+}
+
+div.menu-bar ul li
+{
+    display: block;
+    float: left;
+    height: auto;
+    width: 130px;
+    margin: 0px;
+}
+
+div.menu-bar li > span, div.menu-bar li > a, div.menu-bar li > a:link,
+div.menu-bar li > a:visited, div.menu-bar li > a:active 
+{
+    margin: 0px;
+    display: block;
+    padding: 0 0 0 10px;
+    line-height: 25px;
+    font-size: 12px;
+    text-decoration: none;
+    background-color: transparent;
+    color: #000;
+    cursor: pointer;
+}
+
+div.menu-bar li:hover > span, div.menu-bar li:hover > a 
+{
+    text-decoration: underline;   
+}
+
+div.menu-bar ul ul
+{
+    margin: 0px;
+    margin-top: 2px;
+    display: none;
+    position: static;
+    height: auto;
+    width: 120px;
+    background-color: transparent;
+    text-align: center;
+}
+
+div.menu-bar li:hover > ul
+{
+    display: block;
+}
+
+div.menu-bar ul ul li 
+{
+    margin: 0px;
+    position: relative;
+    float: none;
+    display: block;
+    height: 28px;
+}
+
+div.menu-bar ul ul li > span, div.menu-bar ul ul li > a,
+div.menu-bar ul ul li > a:link, div.menu-bar ul ul li > a:visited,
+div.menu-bar ul ul li > a:active 
+{
+    margin: 0px;
+    padding: 0 0 0 4%;
+    line-height: 28px;
+    background-color: #fff;
+    color: #000;
+    font-size: 12px;
+}
+
+div.menu-bar ul ul li:hover > span, div.menu-bar ul ul li:hover > a 
+{
+    text-decoration: underline;
+}
+
+div.menu-bar ul ul ul 
+{
+    position:absolute;
+    top: 4px;
+    left: 155px;   
+}
+
+
+
+div.button 
+{
+    height: 30px;
+    background-color: #59a5b6;
+    padding: 5px 10px;
+}
+
+div.button ul
+{
+    font-family: "monaco" "arial" sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: visible;
+}
+
+div.button ul li
+{
+    display: block;
+    float: left;
+    height: auto;
+    width: 200px;
+}
+
+div.button > span, div.button li > a, div.button li > a:link,
+div.button li > a:visited, div.button li > a:active
+ {
+    display: block;
+    padding: 0 0 0 10px;
+    line-height: 30px;
+    font-family: "monaco" "arial" sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+    background-color: transparent;
+    color: #000;
+    cursor: pointer;
+}
+
+div.button li:hover > span, div.button li:hover > a 
+{
+    text-decoration: underline;
+}
+
+
+header 
+{   
+    color: #000;
+    background-color: transparent;
+    margin: 0px;
+}
+
+#content
+{      
+    float:left;
+    width: 800px;
+    height: 600px;
+    margin: 0px 80px 20px 80px;
+    background: url(images/front.jpg);
+    background-size:cover;
+    
+}
+
+#info
+{
+    height: 200px;
+    padding: 0 0 10px 0;
+    margin: 10px 0 10px 0px;
+    float:right;  
+}
+
+#aboutfirst, #aboutcompetitions, #find
+{    
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    margin: 20px 40px 60px 40px;
+    float:left; 
+    border-radius: 50%;
+    background-size: cover;
+}
+
+#find
+{
+    background-image: url(images/find.jpg);
+   
+}
+
+#aboutfirst
+{
+    background-image: url(images/aboutfirst.jpg);
+   
+}
+
+#aboutcompetitions
+{
+    background-image: url(images/aboutcompetitions.jpg);
+}
+
+footer
+{
+    border-top: 1px dashed #000;
+    padding: 10px 20px;
+    margin: 10px;
+    clear:both;
+    font-size: 11px;
+}
+
+#map
+{
+    float: left;
+    margin: 10px 0px;
+    width: 690px;
+    height: 1310px;
+    background-image: url(images/map.jpg);
+    background-size:cover;
+}
+
+#team771, #team1334, #team1360, #team3161, #team4519, #team5409
+{       
+    margin: 10px 0px 0px 10px; 
+    width: 260px;
+    height: 200px;
+    padding: 0 0 10px 0;
+    float:right;   
+}
+
+#team771 
+{   
+    background-image: url(images/771robot.jpg);
+    background-size:cover;
+}
+
+#team1334 
+{   
+    background-image: url(images/1334shirt2.jpg);
+    background-size:cover;
+}
+
+#team1360 
+{   
+    background-image: url(images/1360.jpg);
+    background-size:cover;
+}
+
+#team3161 
+{   
+    background-image: url(images/3161robot.jpg);
+    background-size:cover;
+}
+
+#team4519 
+{   
+    background-image: url(images/firstcommunity.jpg);
+    background-size:cover;
+}
+
+#team5409 
+{   
+    background-image: url(images/firstcommunity.jpg);
+    background-size:cover;
+}
+
+#teaminfo
+{   
+    width: 260px;
+    height: 200px;
+    padding: 0 0 10px 0;
+    float:right; 
+    margin: 10px 0px 0px 10px; 
+    background-image: url(images/firstcommunity.jpg);
+    background-size:cover;
+}
+
+#firstgeneral, #teamgeneral, #competitiongeneral
+{   
+    width: 260px;
+    height: 200px;
+    padding: 0 0 10px 0;
+    float:right; 
+    margin: 10px 0px 0px 10px; 
+}
+
+#firstgeneral
+{
+    background-image: url(images/competition8.jpg);
+    background-size:cover;
+}
+
+#teamgeneral
+{
+    background-image: url(images/competition6.jpg);
+    background-size:cover;
+}
+
+#competitiongeneral
+{
+    background-image: url(images/competition7.jpg);
+    background-size:cover;
+}
+
+#competitioncontent, #firstcontent, #teamcontent
+{
+    float: left;
+    margin: 10px 0px;
+    width: 690px;
+    height: 430px;
+}
+
+#aboutcontent
+{
+    float: left;
+    margin: 10px 0px;
+    width: 690px;
+    height: 650px;
+    background-image: url(images/competition3.jpg);
+    background-size:cover;
+}
+
+#logo771
+{
+    height:100px;
+    width: 100px;
+    margin: 10px 0;
+    background-color: aquamarine;
+    float: left;
+}
+#header771
+{
+     font-family: "monaco" "arial" sans-serif; 
+    font-size: 30px;
+    line-height: 40px;
+    float: left;
+    margin: 10px 0px 10px 10px;
+    width: 850px;
+}
+#info771
+{
+    float: left;
+    width: 480px;
+}
+
+#map771
+{
+    float: right;
+    width: 480px;
+    height: 300px;
+    background-color: bisque;
+}
+
+#teampic771
+{
+    margin: 10px 10px 10px 0px;
+    width: 630px; 
+    height: 200px;
+    float:left;
+    background-image: url(images/swatteam.jpg);
+}
+
+#robotpic771
+{
+    margin: 10px 0px 10px 10px;
+    height: 200px;
+    width:310px;
+    float:left;
+background-image: url(images/771robot.jpg);
+background-size: cover;
+}
+
+#teamcontent
+{
+    background-image: url(images/map.jpg);
+    background-size:cover;
+}
+
+#firstcontent
+{
+    background-image: url(images/map.jpg);
+    background-size:cover;
+}
+
+#competitioncontent
+{
+    background-image: url(images/map.jpg);
+    background-size:cover;
+}
